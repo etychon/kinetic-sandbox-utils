@@ -13,7 +13,7 @@ The purpose of this program is to copy non-admin users from one Kinetic Cloud or
 To get help on options and argument for this program, invoke help:
 
 ```
-python kinetic-sandbox-copy.py -h
+user$ python kinetic-sandbox-copy.py -h
 usage: kinetic-sandbox-copy.py [-h] --cluster {us,eu} --username USERNAME
                                [--password PASSWORD] [--all] [--debug]
                                src-org-id dst-org-id
