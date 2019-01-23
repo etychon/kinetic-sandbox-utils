@@ -120,11 +120,10 @@ def main():
 
     # define HEADER
     headers = {
-    'Content-Type': "application/json",
-    'Accept': "application/json",
-    'Cache-Control': "no-cache",
-    'Authorization': 'Token {}'.format(token)
-    }
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        'Cache-Control': 'no-cache',
+        'Authorization': 'Token {}'.format(token)}
 
     # Build the primary API call structure to request list of users
     # in the given source organisation
